@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace GenericsIntro
 {
@@ -8,6 +9,11 @@ namespace GenericsIntro
 		{
 			MyList<string> names = new MyList<string>();
 			names.Add("Yiğit");
+			names.Add("Sema");
+
+			Console.WriteLine(names.Length);
+
+			Dictionary<string, string> dic = new Dictionary<string,string>();
 
 		}
 	}
